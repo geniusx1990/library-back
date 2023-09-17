@@ -7,7 +7,7 @@ const client = new Client({
     port: 5432,
 
 
-    /*    user: 'me',
+    /*   user: 'me',
        host: 'localhost',
        database: 'september',
        password: 'password',

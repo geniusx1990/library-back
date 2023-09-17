@@ -40,9 +40,9 @@ client.connect((err) => {
 })
 
 app.use(express.json());
-const corsOptions = {
+ const corsOptions = {
     origin: 'https://merry-kashata-3e07ca.netlify.app',
-};
+}; 
 
 app.use(cors(corsOptions));
 //app.use(cors());
