@@ -40,7 +40,12 @@ client.connect((err) => {
 })
 
 app.use(express.json());
-app.use(cors());
+const corsOptions = {
+    origin: 'https://merry-kashata-3e07ca.netlify.app',
+};
+
+app.use(cors(corsOptions));
+//app.use(cors());
 
 const port = process.env.PORT || 5000;
 
